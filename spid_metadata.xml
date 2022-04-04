@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor entityID="https://fun-nosoftware-7450-dev-ed.cs189.my.salesforce.com" validUntil="2032-04-04T16:58:06.148Z" ID="_c2b9bcd40b4eda0d3d9f93c12b8d795042bf0cf7" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions">
-   <ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference URI="#_c2b9bcd40b4eda0d3d9f93c12b8d795042bf0cf7"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>n9ttraLSnpwB3DAhitcdapBmnYspXDZqNe6UO3xpgLI=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>cU3GmqXJi+DVhEXBQ8c709d1HhkSYMUQP9HppWZGFyqaeCU5v4gz5P/B5ghpwpVAnJ3pLJAuNznR
-kE+nX+YqEO/mdTAunmaBs7IQRFU6DaxOy/b8t09ga2YkDEt1hWq4AB8RM1tkFBE9uMIjSzrcqM5E
-6I4shstKR21ktncmTiwYWYImoOvWJhShUB7Tv7YZiPoLVgeApr1cO16nEOGw4pQCzjwDnhKe6wyk
-kr/6HXoL7kzIlB/PMN1ORi7lfEF0B/YEH9cOIl/DZ2iAKXYqzM0KSHezREwqQEaiSlPlJkttWWAC
-9H9cL1pX6DO2ciR1ezVbdQtM+a4/ibzgKl+Q8A==</ds:SignatureValue><ds:KeyInfo><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>yQRqXg2ya0XfIjsGV6/1L1o55iuoG8kbj6tOQJBM18AaV6w31IMQeUzC0u9BgDX+tbbWyBZ8hZpR
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor entityID="https://fun-nosoftware-7450-dev-ed.cs189.my.salesforce.com" validUntil="2032-04-04T16:58:06.148Z" ID="_f91e53b0521ad2b9bb2dc9da0680cd02f08bde8d" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions">
+   <ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference URI="#_f91e53b0521ad2b9bb2dc9da0680cd02f08bde8d"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>O82dQBwKJEUPcON41boAnoEJkmX5+JZu42kIy9DeO0Y=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>C36Ach9WLASFEJa2duhJ/5TjRrONKQQcx0OJVvdxJsgfispnSCndEtdqlQBtQTUoVmK7vPI7Ecnr
+CjSlTvWJZhsh1jzK0OinfSBfTCDE4c6UX069WTuo7oKp+ZtuMroZDfDa+Z/MVlcT8a043dkgYFjc
+VLVWcsOsZO3GDBjMQtgviurdeLh+AC90USeoziakbogpc+JYNJD05Kuo9Mif8NNMJ171NLfNw2dP
+Tdfs7E8bFrnAMSfZWXtocEtzkHEPgGVzjs0ovKHVwNMwd2PXXau9ILaqqrAGuvec8mt2ikRTrnPv
+BzcNX8ayvkS2xYhSM6hPy5U7ZAYSmMPiZSxBaQ==</ds:SignatureValue><ds:KeyInfo><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>yQRqXg2ya0XfIjsGV6/1L1o55iuoG8kbj6tOQJBM18AaV6w31IMQeUzC0u9BgDX+tbbWyBZ8hZpR
 2Y9plD+0LMXHUDnqkO+VSToRNgtNzwa6UtYXSH+3PN+MQ2xID3Tk2iuN1+1D1CAzqYPVipDYmUzQ
 3ViQTWME467yPsUGV0CtlX2MwkCktyXLyr8FvzYjQU1VnUN9jv3NQWspCircdjvq1e1waXdWT1IF
 RM4wcR7nBOUxA4g0+9fn35kzyUQS4CfPc12elyFvTln2s7tvuDc09F34GstJrEwh6UPfTcPPRE+D
@@ -60,6 +60,8 @@ PHTAblDljgIZRxmvzYI2RPdv/TwVhU7jpQct0zPITTpmXt9EnaF7KY25OcVUTfPA</ds:X509Certifi
             </ds:X509Data>
          </ds:KeyInfo>
       </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://fun-nosoftware-7450-dev-ed.cs189.my.salesforce.com/services/auth/sp/saml2/logout" />
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://fun-nosoftware-7450-dev-ed.cs189.my.salesforce.com/services/auth/sp/saml2/logout" />
       <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
       <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://fun-nosoftware-7450-dev-ed.cs189.my.salesforce.com" index="0" isDefault="true" />
       <md:AttributeConsumingService index="0" isDefault="true">
